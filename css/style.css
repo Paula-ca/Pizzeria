@@ -1,0 +1,171 @@
+*{
+    
+    margin: 0;
+    border: 0;
+    padding:0;
+    font-size: 100%;
+    font-weight: 400; 
+    box-sizing: border-box;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+/*-----body-----*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #F3F3F3;
+}
+/*-------header------*/
+header{
+    background-color: #222222;
+    height: 100px;
+    display: flex;
+    font-size: 16px;
+    justify-content:space-between;
+    padding: 1% 2%;
+    line-height: 19px;
+    color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*-------logo---------*/
+.inicio{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.logo-header{
+    width: 132px;
+    height: 28px;
+    left: 122px;
+    top: 36px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav ul{
+    display:flex;
+    gap:5%;
+    margin-right: 60%;
+}
+.lista-header li{
+    color: #F3F3F3;
+    font-size: 16px;
+    line-height: 19px;
+    list-style: none;
+    display: inline-block;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section{
+    border-radius: 5px;
+    width: 490px;
+    height: 350px;
+    box-shadow: 0px 3px 5px #9a9a9a;
+    margin: 4% 1%;
+}
+.delibery{
+    background-image: url(../img/delivery.jpg);
+}
+h2{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #FC200C;
+    width: 350.64px;
+    height: 28px;
+    left: 38.98px;
+    top: 155px;
+    text-align: center;
+    padding: 20px 2px 302px ;
+    margin-right: 5px;
+    margin-left:20px;
+}
+h2 span{
+color: #fff;
+font-weight: bold;
+}
+.podio-pizzas{
+    background-color: #FFFF;
+    flex-direction: column;
+    
+}
+.podio-pizzas h2{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left:770px;
+    top: 161px;
+    color: #FC200C;s
+
+}
+.mejores{
+    width: 200px;
+    height: 23px;
+    left: 500px;
+    top:247px;
+    margin-top: 120px;
+   margin-left: 85px;
+}
+.podio-pizzas h3 {
+    color: #222222;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15%;
+}
+ol li {
+    padding: 2px 5px;
+    top: 20px;
+    color: #222222;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    z-index: 7;
+}
+
+.ingredientes-pizza{
+    border-radius: 5px;
+    position: absolute;
+    width: 92px;
+    height: 129px;
+    left: 950px;
+    top: 290px;
+    
+}
+
+footer{
+    background: #222222;
+    display: flex;
+    justify-content:space-between;
+    padding: 1% 2%;
+} 
+div.nav-footer {
+    display: block;
+}
+.nav-footer ul li {
+    color: #F3F3F3;
+    font-size: 16px;
+    line-height: 19px;
+    list-style: none;
+    padding-bottom: 10%;
+    align-items: center;
+    
+}
+.fin {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+.logo-footer {
+    width: 110px;
+    height: 23px;
+    bottom: 74px;
+
+}
